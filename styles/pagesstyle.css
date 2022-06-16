@@ -7,10 +7,10 @@ body {
 }
 
 .mainheader {
-  background-image: url("../images/bg.jpg");
+  background-image: url("../images/main-images/aurora_bg.jpg");
   height: 725px;
   background-size: cover;
-  background-position: bottom center;
+  background-position: center center;
 }
 
 .nav {
@@ -41,6 +41,7 @@ body {
 
 .navlist li a:hover {
   background-color: rgba(0, 0, 0, 0.2);
+  transform: scale(1.05);
 }
 
 .mainheadercontent {
@@ -62,6 +63,11 @@ body {
   border-bottom: 1px solid white;
 }
 
+.maincontent {
+  width: 75%;
+  margin: auto;
+}
+
 .maincontent h2 {
   margin: 25px;
   font-size: 36px;
@@ -73,5 +79,4 @@ body {
   margin: auto;
   font-size: 20px;
   text-indent: 75px;
-  width: 50%;
 }

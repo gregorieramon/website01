@@ -7,10 +7,10 @@ body {
 }
 
 .mainheader {
-  background-image: url("../images/bg.jpg");
+  background-image: url("../images/main-images/aurora_bg.jpg");
   height: 725px;
   background-size: cover;
-  background-position: bottom center;
+  background-position: center center;
 }
 
 .nav {
@@ -40,7 +40,8 @@ body {
 }
 
 .navlist li a:hover {
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.3);
+  transform: scale(1.05);
 }
 
 .mainheadercontent {
@@ -100,22 +101,32 @@ body {
   color: white;
 }
 
+.card:hover {
+  transform: scale(1.05);
+}
+
+#contentdescription {
+  width: 75%;
+  margin: auto;
+}
+
 #contentdescription h2 {
   margin: 15px 0;
-  font-size: 28px;
+  font-size: 36px;
   text-align: center;
   padding: 15px;
   background-color: #222;
 }
 
 #contentdescription img {
-  margin: 0 25px;
-  height: 500px;
   float: left;
+  margin: 0 25px;
+  width: 50%;
+  height: auto;
 }
 
 #contentdescription p {
-  margin: 25px;
+  margin: 25px auto;
   font-size: 20px;
   text-indent: 75px;
 }
