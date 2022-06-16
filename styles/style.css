@@ -65,7 +65,7 @@ body {
 .cards {
   padding: 15px;
   overflow: auto;
-  background-color: #ccc;
+  background-color: #222;
 }
 
 .card {
@@ -105,8 +105,7 @@ body {
   font-size: 28px;
   text-align: center;
   padding: 15px;
-  background-color: #ccc;
-  color: black;
+  background-color: #222;
 }
 
 #contentdescription img {

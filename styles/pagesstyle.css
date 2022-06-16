@@ -6,6 +6,13 @@ body {
   padding: 0;
 }
 
+.mainheader {
+  background-image: url("../images/bg.jpg");
+  height: 725px;
+  background-size: cover;
+  background-position: bottom center;
+}
+
 .nav {
   text-align: center;
   margin-left: -25px;
@@ -34,4 +41,37 @@ body {
 
 .navlist li a:hover {
   background-color: rgba(0, 0, 0, 0.2);
+}
+
+.mainheadercontent {
+  margin: 200px;
+  text-align: center;
+}
+
+.mainheadercontent h1 {
+  font-size: 48px;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 5px #333;
+}
+
+.mainheadercontent p {
+  display: inline-block;
+  font-size: 20px;
+  padding: 15px;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid white;
+}
+
+.maincontent h2 {
+  margin: 25px;
+  font-size: 36px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.maincontent p {
+  margin: auto;
+  font-size: 20px;
+  text-indent: 75px;
+  width: 50%;
 }
